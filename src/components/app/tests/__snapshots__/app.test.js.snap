@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component App correctly renders after relaunch 1`] = `
+<div
+  className="main_wrapper"
+>
+  <div
+    className="shadow"
+  >
+    <h1
+      className="header"
+    >
+      Ты сегодня покормил кота?
+    </h1>
+    <div
+      className="block_products"
+    >
+      <div
+        className="product-wrapper"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <label
+          className="choose_check"
+          htmlFor="choose-0"
+        >
+          <input
+            checked={false}
+            className="choose_input null null"
+            id="choose-0"
+            name="choose"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <span />
+          <div
+            className="block_in_card"
+          >
+            <p
+              className="product_title null"
+            >
+              Сказочное заморское яство
+            </p>
+            <p
+              className="product_name null"
+            >
+              Нямушка
+            </p>
+            <p
+              className="product_with null"
+            >
+              с фуа-гра
+            </p>
+            <p
+              className="product_description null"
+            >
+              10 порций
+            </p>
+            <p
+              className="product_description null"
+            >
+              мышь в подарок
+            </p>
+            <p
+              className="product_description null"
+            />
+          </div>
+          <div
+            className="product_weight"
+          >
+            <p
+              className="product_weight_number"
+            >
+              0,5
+            </p>
+            <p
+              className="product_weight_text"
+            >
+              кг
+            </p>
+          </div>
+          <p
+            className="product_text null_text"
+          >
+            Чего сидишь? Порадуй котэ, 
+            <a
+              className="buy_link"
+              href="/#"
+              onClick={[Function]}
+            >
+              купи.
+            </a>
+          </p>
+        </label>
+      </div>
+      <div
+        className="product-wrapper"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+      >
+        <label
+          className="choose_check"
+          htmlFor="choose-1"
+        >
+          <input
+            checked={false}
+            className="choose_input null null"
+            id="choose-1"
+            name="choose"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <span />
+          <div
+            className="block_in_card"
+          >
+            <p
+              className="product_title null"
+            >
+              Сказочное заморское яство
+            </p>
+            <p
+              className="product_name null"
+            >
+              Нямушка
+            </p>
+            <p
+              className="product_with null"
+            >
+              с рыбой
+            </p>
+            <p
+              className="product_description null"
+            >
+              40 порций
+            </p>
+            <p
+              className="product_description null"
+            >
+              2 мыши в подарок
+            </p>
+            <p
+              className="product_description null"
+            />
+          </div>
+          <div
+            className="product_weight"
+          >
+            <p
+              className="product_weight_number"
+            >
+              2
+            </p>
+            <p
+              className="product_weight_text"
+            >
+              кг
+            </p>
+          </div>
+          <p
+            className="product_text null_text"
+          >
+            Головы щучьи с чесноком да свежайшая сёмгушка.
+          </p>
+        </label>
+      </div>
+      <div
+        className="product-wrapper"
+        onMouseEnter={null}
+        onMouseLeave={null}
+      >
+        <label
+          className="choose_check"
+          htmlFor="choose-2"
+        >
+          <input
+            checked={null}
+            className="choose_input null disabled"
+            id="choose-2"
+            name="choose"
+            onChange={null}
+            type="checkbox"
+          />
+          <span />
+          <div
+            className="block_in_card"
+          >
+            <p
+              className="product_title disabled"
+            >
+              Сказочное заморское яство
+            </p>
+            <p
+              className="product_name disabled"
+            >
+              Нямушка
+            </p>
+            <p
+              className="product_with disabled"
+            >
+              с курой
+            </p>
+            <p
+              className="product_description disabled"
+            >
+              100 порций
+            </p>
+            <p
+              className="product_description disabled"
+            >
+              5 мышей в подарок
+            </p>
+            <p
+              className="product_description disabled"
+            >
+              заказчик доволен
+            </p>
+          </div>
+          <div
+            className="product_weight"
+          >
+            <p
+              className="product_weight_number"
+            >
+              5
+            </p>
+            <p
+              className="product_weight_text"
+            >
+              кг
+            </p>
+          </div>
+          <p
+            className="product_text disabled_text"
+          >
+            Печалька, с курой закончился.
+          </p>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardComponent component CardComponent correctly renders after relaunch 1`] = `
+<div
+  className="product-wrapper"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <label
+    className="choose_check"
+    htmlFor="choose-0"
+  >
+    <input
+      checked={null}
+      className="choose_input string some string"
+      id="choose-0"
+      name="choose"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <span />
+    <div
+      className="block_in_card"
+    >
+      <p
+        className="product_title some string"
+      >
+        Сказочное заморское яство
+      </p>
+      <p
+        className="product_name some string"
+      >
+        Нямушка
+      </p>
+      <p
+        className="product_with some string"
+      >
+        с фуа-гра
+      </p>
+      <p
+        className="product_description some string"
+      >
+        10 порций
+      </p>
+      <p
+        className="product_description some string"
+      >
+        мышь в подарок
+      </p>
+      <p
+        className="product_description some string"
+      />
+    </div>
+    <div
+      className="product_weight"
+    >
+      <p
+        className="product_weight_number"
+      >
+        0,5
+      </p>
+      <p
+        className="product_weight_text"
+      >
+        кг
+      </p>
+    </div>
+    <p
+      className="product_text some string_text"
+    >
+      some text
+    </p>
+  </label>
+</div>
+`;

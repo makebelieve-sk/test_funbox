@@ -1,68 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Q1) Пользователь: Будет наблюдать, как блоки при плохой рабочей верстке будут наезжать друг на друга, иметь чересчур большие или маленькие размеры. Будут проблемы с анимацией. Скорее всего блоки сожмутся или растянутся при заходе на сайт с мобильных устройств или даже ноутбука. Цвета блоков будут смешиваться из-за неправильно подобранных названий классов или id. Пользователь будет замечать необычно долгую загрузку приложения/сайта. 
+Менеджер проектов: 
+Дизайнер: Из-за плохой верстки он не сможет увидеть общую картину сверстанного макета. Так как все блоки будут иметь несуразные размеры и, даже, могут наслаиваться друг на друга. В общем, ему будет довольно трудно подобрать цветовую гамму для сайта и правильное расположение блоков(как он себе представлял).
+Верстальщик: При плохой вёрстке ему будет неудобно поддерживать и развивать существующий проект, так как будут неправильно выбраны названия классов и id у тегов, да и сами теги. Он будет испытывать трудности при стилизации блоков, и создании анимации.
+Клиентский программист: При плохой вёрстке ему будет неудобно поддерживать проект, так как сложно будет управлять формой, навешивать события на отдельные элементы, производить какие либо изменения с существующими элементами, так как будет проще самому переписать их. Также будут проблемы при работе с изображениями, аудио и видео компонентами, картами, модальными окнами, слайдерами. Будут трудности при работе с сервером при заполнении разных блоков контентом.
+Серверный программист: При плохой верстке будет сильно загружаться сервер из-за большого количества запросов. 
+Q2) Основные особенности:  Использовать компонентный подход в разработке. Использовать правильную архитектуру для стилизации компонентов, то есть ту, для которой требуется меньше усилий для изменения кода.
+На практике я применял компонентный подход(БЭМ). Удобную файловую структуру. 
+Q3) Для того, чтобы сайт выглядел хорошо на мониторе и на смартфоне, я использую верстку на flex-box и медиа-запросы.
+Q4) Для экономии времени я использовал eslint. Также использую typescript.
+Q5) Нет не сталкивался, но в таком случае я бы использовал http://www.browserstack.com/. 
+Q6) Ну, к примеру, при наведении на ссылку, я могу самостоятельно убрать underline. Если будут более сложные элементы, то я буду спрашивать у дизайнера.
+Q7) Я бы хотел больше времени посвящать JS-программированию. Для развития я использую такие ресурсы как: https://learn.javascript.ru/, https://ru.reactjs.org/, https://rajdee.gitbooks.io/redux-in-russian/content/, http://typescript-lang.ru/docs/ также ютуб-каналы https://www.youtube.com/c/ITKAMASUTRA/videos и https://www.youtube.com/c/YauhenKavalchuk/videos для изучения тестирования react приложений.
+Q8)  Меня зовут Алексей. Мне 21 год. Проживаю в Первоуральске Свердловской области. Изучаю js, React, Redux, Typescript, Jest, Scss, Git. Играю на гитаре. Поступил на 1 курс магистратуры в УрФУ в радиофак. 
+Вот ссылки на мои учебные проекты из гитхаба:
+https://github.com/makebelieve-sk/guess-melody, https://github.com/makebelieve-sk/Battleship
+В данный момент разрабатываю с другом конструктор сайтов. Разрабатываю фронтенд нашего приложения. Наша задумка: создание и изменение компонентов с помощью сервера. Для хранения информации с сервера использую Redux, для формирования запросов использую библиотеку axios. Так как приложение большое, чтобы совершать меньше ошибок, использую typescript.
+Также начал изучать React Native и написал учебное Todo приложение. 
